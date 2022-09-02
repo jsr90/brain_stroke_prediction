@@ -13,14 +13,11 @@ data
     out.csv
 models
     model.h5
-templates
-    index.html
-app.py
 neuralNetwork.ipynb
 preprocessing.ipynb
+aux.py
 readme.txt
 
 Running order:
-    1. preprocessing.ipynb (optional, generates out.csv)
-    2. neuralNetwork.ipynb (optional, generates model.h5)
-    3. app.py
+    1. preprocessing.ipynb (generates out.csv)
+    2. neuralNetwork.ipynb (generates model.h5)
